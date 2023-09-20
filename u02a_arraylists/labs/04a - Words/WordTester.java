@@ -10,16 +10,14 @@ public class WordTester
 {
 	public static void main(String[] args)
 	{
-		//add test cases
+		Word test = new Word("chicken");
+      out.println(test);
 		
-		
-		
-		
-		
-		//add more test cases
-		
-		
-		
+      test = new Word("alligator");
+      out.println("\n" + test);
+      
+      test = new Word("elephant");
+      out.println("\n" + test);
 		
 		
 	}

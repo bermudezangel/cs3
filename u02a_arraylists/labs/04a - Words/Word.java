@@ -30,7 +30,7 @@ public class Word
 	{
 		int count=0;
       for (int i = 0; i < word.length(); i++){
-         if (vowels.indexOf(word.charAt(i)) > -1)
+         if (vowels.indexOf(Character.toString(word.charAt(i))) > -1)
             count++;
       }
 		return count;
@@ -43,6 +43,6 @@ public class Word
 
 	public String toString()
 	{
-	   return (word + "\n" + "num vowels == " + getNumVowels() + "\n" + "num chars == " + getLength());
+	   return (word);
 	}
 }

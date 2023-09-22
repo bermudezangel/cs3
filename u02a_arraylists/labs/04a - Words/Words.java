@@ -26,8 +26,11 @@ class Words
 
    public void setWords(String wordList)
    {
+      words = new ArrayList<Word>();
       String[] list = wordList.split(" ");
-      words = new ArrayList(Arrays.asList(list));   
+      for (String s : list){
+         words.add(new Word(s));
+      }
    }
 	
    public int countWordsWithXChars(int size)

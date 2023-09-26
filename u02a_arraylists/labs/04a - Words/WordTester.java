@@ -12,12 +12,18 @@ public class WordTester
 	{
 		Word test = new Word("chicken");
       out.println(test);
+      out.println("num vowels == " +test.getNumVowels());
+      out.println("num chars == " + test.getLength() + "\n");
 		
       test = new Word("alligator");
-      out.println("\n" + test);
+      out.println(test);
+      out.println("num vowels == " +test.getNumVowels());
+      out.println("num chars == " + test.getLength() + "\n");
       
       test = new Word("elephant");
-      out.println("\n" + test);
+      out.println(test);
+      out.println("num vowels == " +test.getNumVowels());
+      out.println("num chars == " + test.getLength() + "\n");
 		
 		
 	}

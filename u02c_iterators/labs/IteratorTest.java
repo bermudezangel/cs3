@@ -22,7 +22,7 @@ public class IteratorTest
 	public void setTest(String line, String rem)
 	{
 		String[] words = line.split(" ");     
-		ArrayList<String> list = new ArrayList<String>(Arrays.asList(words));
+		list = new ArrayList<String>(Arrays.asList(words));
 		toRemove = rem;
 	}
 
@@ -38,6 +38,11 @@ public class IteratorTest
 
 	public String toString()
 	{
-		return list.toString();
+		String output = "[";
+      for (String s : list){
+         output += s + ", ";
+      }
+      output += "]";
+      return output;
 	}
 }

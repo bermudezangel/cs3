@@ -13,6 +13,12 @@ public class Lab05a
 {
 	public static void main ( String[] args )
 	{
-		//add test cases	
+		IteratorTest test = new IteratorTest("a b c a b c a", "a");
+      test.remove();
+      out.println(test);
+      
+      test = new IteratorTest("a b c d e f g h i j x x x x", "x");
+      test.remove();
+      out.println(test);	
 	}
 }

@@ -16,6 +16,19 @@ public class Lab05b
 		ListIteratorTest test = new ListIteratorTest("a b c a b c", "a", "+");
 		out.println(test);
 		test.replace();
-		out.println(test);	
+		out.println(test);
+      out.println("--------------------------------");	
+      
+      test = new ListIteratorTest("a b c d e f g h i j x x x x", "x", "7");
+		out.println(test);
+		test.replace();
+		out.println(test);
+      out.println("--------------------------------");
+      
+      test = new ListIteratorTest("1 2 3 4 5 6 a b c a b c ", "b", "#");
+		out.println(test);
+		test.replace();
+		out.println(test);
+      
 	}
 }

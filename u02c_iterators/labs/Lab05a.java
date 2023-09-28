@@ -20,5 +20,9 @@ public class Lab05a
       test = new IteratorTest("a b c d e f g h i j x x x x", "x");
       test.remove();
       out.println(test);	
+      
+      test = new IteratorTest("1 2 3 4 5 6 a b c a b c", "b");
+      test.remove();
+      out.println(test);
 	}
 }

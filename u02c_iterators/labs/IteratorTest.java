@@ -38,11 +38,7 @@ public class IteratorTest
 
 	public String toString()
 	{
-		String output = "[";
-      for (String s : list){
-         output += s + ", ";
-      }
-      output += "]";
+		String output = list.toString();
       return output;
 	}
 }

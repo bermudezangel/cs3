@@ -13,8 +13,11 @@ public class GCF
 	
 	public static int gcf(int n1, int n2)
 	{
-		
-		
-		return 0;
+     int remainder = n1%n2;
+     if(remainder == 0){
+      return n2;
+     }else{
+      return gcf(n2, remainder);
+     }
 	}
 }

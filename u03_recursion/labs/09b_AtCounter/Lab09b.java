@@ -16,6 +16,25 @@ public class Lab09b
       count.countAts(r, c);
       out.println(r + " " + c + " has " + count);
       
+      r = 2;
+      c = 5;
+      count.countAts(r, c);
+      out.println(r + " " + c + " has " + count);
+      
+      r = 5;
+      c = 0;
+      count.countAts(r, c);
+      out.println(r + " " + c + " has " + count);
+      
+      r = 9;
+      c = 9;
+      count.countAts(r, c);
+      out.println(r + " " + c + " has " + count);
+      
+      r = 3;
+      c = 9;
+      count.countAts(r, c);
+      out.println(r + " " + c + " has " + count);
       
 	}
 }

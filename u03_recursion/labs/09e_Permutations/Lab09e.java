@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -11,6 +11,24 @@ public class Lab09e
 {
    public static void main( String args[] )
    {
-	    //add test cases	    
+        String word = "ABC";
+	    Permutation perm = new Permutation(word);
+        perm.permutation();
+        out.println("\n" + perm);  
+
+        word = "abc";
+	    perm = new Permutation(word);
+        perm.permutation();
+        out.println("\n" + perm); 
+
+        word = "boat";
+	    perm = new Permutation(word);
+        perm.permutation();
+        out.println("\n" + perm); 
+
+        word = "it";
+	    perm = new Permutation(word);
+        perm.permutation();
+        out.println("\n" + perm); 
 	}
 }

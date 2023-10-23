@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -7,6 +7,7 @@
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.Arrays;
+import java.util.List;
 import java.util.ArrayList;
 import static java.lang.System.*;
 
@@ -16,15 +17,20 @@ public class UniquesDupes
 	{
 		Set<String> uniques = new TreeSet<String>();
 
-		//add code
-
+		for (String letter : input.split(" ")){
+				uniques.add(letter);
+		}
 		return uniques;
 	}
 
 	public static Set<String> getDupes(String input)
 	{
-		//add code
-		
-		return null;
+		Set<String> dupes = new TreeSet<String>();
+		Set<String> uniques = new TreeSet<String>();
+		for (String letter : input.split(" ")){
+			if (uniques.add(letter) == false)
+				dupes.add(letter);
+		}
+		return dupes;
 	}
 }

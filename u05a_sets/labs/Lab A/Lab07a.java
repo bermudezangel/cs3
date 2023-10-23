@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -15,6 +15,17 @@ public class Lab07a
 		System.out.println("Original List : " + list);
 		out.println("Uniques : " + UniquesDupes.getUniques(list));
 		out.println("Dupes : " + UniquesDupes.getDupes(list) + "\n\n");
+
+		list = "one two three one two three six seven one two"; 
+		System.out.println("Original List : " + list);
+		out.println("Uniques : " + UniquesDupes.getUniques(list));
+		out.println("Dupes : " + UniquesDupes.getDupes(list) + "\n\n");
+		
+		list = "1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 6"; 
+		System.out.println("Original List : " + list);
+		out.println("Uniques : " + UniquesDupes.getUniques(list));
+		out.println("Dupes : " + UniquesDupes.getDupes(list) + "\n\n");
+		
 		
 		//more test cases
 				

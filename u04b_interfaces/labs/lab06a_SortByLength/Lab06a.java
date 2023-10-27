@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -15,6 +15,10 @@ public class Lab06a
 {
 	public static void main( String args[] ) throws IOException
 	{
-		//add test cases
+		Scanner data = new Scanner("lab06a.dat")
+		while(data.hasNext()){
+			Word wordy = new Word(data.next())
+		}
+		
 	}
 }

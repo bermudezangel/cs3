@@ -22,7 +22,7 @@ public class Piece extends Cell implements Nameable
 
 	public Piece(String n)
 	{
-
+      
 
 	
 	}

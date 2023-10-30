@@ -15,9 +15,14 @@ public class Lab06a
 {
 	public static void main( String args[] ) throws IOException
 	{
-		Scanner data = new Scanner("lab06a.dat")
+		Scanner data = new Scanner(new File("lab06a.dat"));
+		ArrayList<Word> words = new ArrayList<Word>();
 		while(data.hasNext()){
-			Word wordy = new Word(data.next())
+			words.add(new Word(data.next()));
+		}
+		Collections.sort(words);
+		for(Word word : words){
+			out.println(word);
 		}
 		
 	}

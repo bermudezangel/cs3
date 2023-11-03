@@ -23,11 +23,13 @@ public class Piece extends Cell implements Nameable
 	public Piece(String n)
 	{
     name = n;
+    setColor(Color.BLUE);
    }
 
 	public Piece(int x, int y, String n)
 	{
       super(x, y);
+      setColor(Color.BLUE);
       name = n;
 	
 	}
@@ -35,6 +37,7 @@ public class Piece extends Cell implements Nameable
 	public Piece(int x, int y, int w, int h, String n)
 	{
       super(x, y, w, h);
+      setColor(Color.BLUE);
       name = n;
 
 		
@@ -81,6 +84,6 @@ public class Piece extends Cell implements Nameable
 	
 	public String toString()
 	{
-		return super.toString() + " " + getName() + " " + getColor().toString();
+		return super.toString() + " " + getName() + " " + getColor();
 	}
 }

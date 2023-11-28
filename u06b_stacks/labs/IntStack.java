@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -25,7 +25,8 @@ public class IntStack
 
 	public IntStack()
 	{
-
+		Stack<Integer> s = new Stack<Integer>();
+		for 
 	}
 
 	public void push(int item)

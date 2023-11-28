@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -10,6 +10,13 @@ public class Lab13a
 {
 	public static void main ( String[] args )
 	{
-		//add test cases		
+		StackTester test = new StackTester("a b c d e f g h i");
+		out.println(test);	
+
+		test = new StackTester("1 2 3 4 5 6 7 8 9 10");
+		out.println(test);
+
+		test = new StackTester("# $ % ^ * ( ) ) _");
+		out.println(test);
 	}
 }

@@ -49,7 +49,8 @@ public class SyntaxChecker
 				symbols.push(currValue);
 			}
 			else if (close.contains(currValue)){
-				if((!stackIsEmpty) || (currValue.compareTo(symbols.peek()) == 0)){
+				if((!stackIsEmpty) || (dream.get(symbols.peek()).equals(currValue))){
+					out.println("True my friend! Spit your facts!");
 					symbols.pop();
 				}
 				else	

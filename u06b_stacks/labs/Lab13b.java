@@ -26,7 +26,7 @@ public class Lab13b
 		test = new SyntaxChecker("{<html[value=4]*(12)>{$x}}");		
 		out.println(test);
 
-		test = new SyntaxChecker("[one]<two>{three}(four");		
+		test = new SyntaxChecker("[one]<two>{three}(four)");		
 		out.println(test);
 
 		test = new SyntaxChecker("car(cdr(a)(b)))");		

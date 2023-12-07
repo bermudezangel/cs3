@@ -45,7 +45,7 @@ public class PalinList
 		while (!stack.isEmpty()){
 			palin2 = stack.pop();
 		}
-		if (palin1.equals(palin2)){
+		if (palin2.equals(palin1)){
 			return true;
 		}
 		return false;
@@ -53,9 +53,9 @@ public class PalinList
 
 
 	public String toString(){
-		String output = "";
+		String output = queue.toString();
 		if (isPalin())
-			return queue + " is a palinlist.";
-		return queue + " is not a palinlist." ;
+			return output + " is a palinlist.";
+		return output + " is not a palinlist." ;
 	}
 }

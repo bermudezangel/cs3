@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class - 
@@ -11,25 +11,47 @@ public class ListFunHouse
 	//this method will print the entire list on the screen
    public static void print(ListNode list)
    {
+	out.println(list.toString());
    }		
 	
 	//this method will return the number of nodes present in list
 	public static int nodeCount(ListNode list)
 	{
-		return 0;
+		int size = 0;
+		while(list.getNext() != null){
+			list = list.getNext();
+			size++;
+		}
+		return size;
 	}
 		
 	//this method will create a new node with the same value as the first node and add this
 	//new node to the list.  Once finished, the first node will occur twice.
 	public static void doubleFirst(ListNode list)
 	{
+		ListNode node = new ListNode();
+		node.setValue(list.getValue());
+
+		while(list.getNext() != null){
+			list = list.getNext();
+		}
+
+		list.setNext(node);
+
 	}
 
 	//this method will create a new node with the same value as the last node and add this
 	//new node at the end.  Once finished, the last node will occur twice.
 	public static void doubleLast(ListNode list)
 	{
-   	ListNode prev=null;
+   	 ListNode prev = null;
+	 while(list.getNext() != null){
+		list = list.getNext();
+	 }
+	 prev.setValue(list.getValue());
+	 
+	 list.setNext(prev);
+
 	}
 		
 	//method skipEveryOther will remove every other node

@@ -18,11 +18,11 @@ public class Lab15b
                   
       out.println("Lab15b Test Code\n\n");   
       
-      out.print("                Original list values:  "); 
+      out.print("  Original list values:  "); 
       ListFunHouse.print(z);
       out.println();
       
-      out.println("                                       num nodes = " + ListFunHouse.nodeCount(z));
+      out.println("num nodes = " + ListFunHouse.nodeCount(z));
 
       out.print("             After calling nodeCount:  "); 
       ListFunHouse.print(z);
@@ -38,18 +38,18 @@ public class Lab15b
       ListFunHouse.print(z);
       out.println();          
 
-      ListFunHouse.skipEveryOther(z);     
+    //  ListFunHouse.skipEveryOther(z);     
       out.print("        After calling skipEveryOther:  ");                   
       ListFunHouse.print(z);
       out.println();       
       
-      ListFunHouse.removeEveryXthNode(z,2);     
+   //   ListFunHouse.removeEveryXthNode(z,2);     
       out.print(" After calling removeEveryXthNode(2):  ");             
       ListFunHouse.print(z);
       out.println();       
       
       
-      ListFunHouse.setEveryXthNode(z,2,"one");     
+  //    ListFunHouse.setEveryXthNode(z,2,"one");     
       out.print("After calling setEveryXthNode(2,one):  ");                            
       ListFunHouse.print(z);
       out.println();          

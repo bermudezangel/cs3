@@ -18,7 +18,7 @@ public class ListFunHouse
 	public static int nodeCount(ListNode list)
 	{
 		int size = 0;
-		while(list.getNext() != null){
+		while(list != null){
 			list = list.getNext();
 			size++;
 		}
@@ -29,15 +29,8 @@ public class ListFunHouse
 	//new node to the list.  Once finished, the first node will occur twice.
 	public static void doubleFirst(ListNode list)
 	{
-		ListNode node = new ListNode();
-		node.setValue(list.getValue());
-
-		while(list.getNext() != null){
-			list = list.getNext();
-		}
-
-		list.setNext(node);
-
+		ListNode node = new ListNode(list.getValue(), list);
+		list = node;
 	}
 
 	//this method will create a new node with the same value as the last node and add this
@@ -57,6 +50,12 @@ public class ListFunHouse
 	//method skipEveryOther will remove every other node
 	public static void skipEveryOther(ListNode list)
 	{
+		ListNode node = null;
+		while(list != null){
+			node.setValue(list);
+			
+		}
+		list = node;
 	}
 
 	//this method will set the value of every xth node in the list

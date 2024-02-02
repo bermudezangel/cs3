@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class - 
@@ -14,7 +14,8 @@ public class Lab17a
       //the correct order to form the tree shown in the directions!!!
       BinarySearchTree tree;
    
-   
+      tree = new BinarySearchTree();
+      
       out.println("LEVEL ORDER");
       tree.levelOrder();
         
@@ -42,7 +43,7 @@ public class Lab17a
       out.println("\nTree height is " + tree.getHeight());
       out.println("The smallest tree node " + tree.getSmallest());   
       out.println("The largest tree node " + tree.getLargest());
-      out.println("\nTree width / diameter is " + tree.getWidth());
+      out.println("\nTree Diameter / diameter is " + tree.getDiameter());
       
       
       out.println("\n\n\nLevel order traversal is extra credit, but removal is not:");

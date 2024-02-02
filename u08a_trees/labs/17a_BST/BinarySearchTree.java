@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class - 
@@ -52,19 +52,59 @@ public class BinarySearchTree
 			inOrder(tree.getRight());
 		}
 	}
+	
+	private void preOrder(TreeNode tree){
+		if (tree != null){
+			System.out.print(tree.getValue() + " ");
+			preOrder(tree.getLeft());
+			preOrder(tree.getRight());
+		}
+	}
 
+	private void postOrder(TreeNode tree){
+		if (tree != null){
+			postOrder(tree.getLeft());
+			postOrder(tree.getRight());
+			System.out.print(tree.getValue());
+		}
+	}
+	private void revOrder(TreeNode tree){
+		if (tree != null){
+			revOrder(tree.getRight());
+			System.out.print(tree.getValue());
+			revOrder(tree.getLeft());
+		}
+	}
 	//add preOrder, postOrder, and revOrder
 
 
 
 	public int getNumLevels()
 	{
-		return getNumLevels(root);
+		getNumLevels(root);
 	}
 
 	private int getNumLevels(TreeNode tree)
 	{
-		return 0;
+		Integer compare = 0;
+
+		if (tree.getLeft() == null && tree.getRight() == null)
+			return 1;
+		Integer left = 0;
+		if (tree.getLeft() != null)
+			left += getNumLevels(tree.getLeft());
+		Integer right = 0;
+		if (tree.getRight() != null)
+			right += getNumLevels(tree.getRight());
+		
+		compare = left.compareTo(right);
+		if (compare > 0){
+			return left;
+		}
+		else if (compare < 0){
+			return right;
+		}
+		return left;
 	}
    
    // Complete the traversals and the toString method

@@ -104,13 +104,27 @@ public class BinarySearchTree
 		else if (compare < 0){
 			return right;
 		}
-		return left;
+		return left.intValue();
 	}
    
    // Complete the traversals and the toString method
    // and then each of these:
    
-   //clear()
+   private TreeNode clear(TreeNode t){
+		TreeNode temp = new TreeNode();
+		t = temp;
+		return t;
+   }
+
+   private int getNumLeaves(TreeNode t){
+	if (t == null)
+		return 1;
+	if (t.getLeft() == null && t.getRight() == null){
+		return 1;
+	}
+	return getNumLeaves(t.getLeft)
+
+   }
 
 	//getNumLeaves 
       

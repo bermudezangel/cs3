@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -16,10 +16,22 @@ public class PQTester
 
 	public PQTester()
 	{
+		PQTester("");
 	}
 
 	public PQTester(String list)
 	{
+		add(list);
+	}
+
+	public void add(String list){
+		String[] listy = list.split(" ");
+		
+			
+
+	}
+	public void remove(String list){
+
 	}
 
 	public void setPQ(String list)

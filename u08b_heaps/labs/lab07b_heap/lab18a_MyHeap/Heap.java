@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class - 
@@ -13,16 +13,15 @@ public class Heap
 
 	public Heap()
 	{
-
+      list = new ArrayList<Integer>();
 
 	}
 
 	public void add(int value)
 	{
-      //Add the new value to the array:
+      list.add(value);
+      swapUp()
 
-		//Reheapify!
-      
 	}
 
    //Note that if you want to implement swapUp recursively,
@@ -30,14 +29,18 @@ public class Heap
    //are in the heap.
    private void swapUp()
    {
-
-
-
-
-	}
-
+      int here = list.size() - 1;
+      int original = (here - 1) / 2;
+      while(here > 0 && list.get(here) > list.get(original))
+      {
+         swap(original, here);
+         here = original;
+         original = (here-1)/2;                            
+      }
+   }
 	public void remove( )
 	{
+      
       //Replace the root with the last element
       
       //Remove the last element

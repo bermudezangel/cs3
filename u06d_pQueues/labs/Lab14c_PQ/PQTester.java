@@ -21,17 +21,18 @@ public class PQTester
 
 	public PQTester(String list)
 	{
+		pQueue = new Queue<String>();
 		add(list);
 	}
 
 	public void add(String list){
 		String[] listy = list.split(" ");
-		
-			
-
+		for(String s : listy){
+			pQueue.add(s);
+		}
 	}
-	public void remove(String list){
-
+	public void remove(){
+		pQueue.remove(0);
 	}
 
 	public void setPQ(String list)
@@ -40,7 +41,7 @@ public class PQTester
 	
 	public Object getMin()
 	{
-		return "";
+		return pQueue.get(0);
 	}
 	
 	public String getNaturalOrder()
@@ -49,5 +50,8 @@ public class PQTester
 		return output;		
 	}
 
+	public String toString(){
+		return pQueue.toString();
+	}
 	//write a toString method
 }

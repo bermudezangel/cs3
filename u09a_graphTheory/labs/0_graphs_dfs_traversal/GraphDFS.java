@@ -1,5 +1,6 @@
 import java.util.*;
 import static java.lang.System.*;
+import java.util.Map;
 
 public class GraphDFS
 {
@@ -12,9 +13,16 @@ public class GraphDFS
 
    //The constructor should take a String of one-directional connections
    //as an input and add each connection to the graph.
+   private Map<String, String> mappy = new HashMap<String, String>();
    public GraphDFS(String line)
    {
-   
+      for(String s : line.split(" ")){
+         String first = s.substring(0, 1);
+         String second = s.substring(1);
+         if(mappy.containsKey(first) == false)
+            mappy.put(first, "");
+         mappy.put(first, mappy.get(first) + second);
+      }
    }
 
    ////////////////////////////////////////////////////
@@ -39,14 +47,29 @@ public class GraphDFS
    //public method called to start the recursive version: 
    public void dfs(String start)
    {
-      //Bail if the starting key isn't even in the graph
-   
-   
+      Set<String> visited = new HashSet<String>();
+      if (start != null && mappy.containsKey(start)){
+         visited.add(start);
+         for(String s : mappy.get(start).split("")){
+            if (visited.contains(s) == false){
+               dfs(s, visited);
+            }
+         }
+         
+      }
    }
       
    //The recursive helper method:
    private void dfs(String start, Set<String> visited)
    { 
+      visited.add(start);
+      if (start != null && mappy.containsKey(start)){
+         for(String s : mappy.get(start).split("")){
+            if (visited.contains(s) == false){
+             dfs(s, visited);
+            }
+         }
+      }
       //label v as discovered
       
       //for all neighbors of v
@@ -55,8 +78,21 @@ public class GraphDFS
    } 
    
    //public method called to run the iterative version: 
-   public void dfs(String start)
+   public void dfs2(String start)
    {
+      Stack<String> stacky = new Stack<String>();
+      Set<String> discovered = new HashSet<String>();
+      stacky.push(start);
+      while(!stacky.isEmpty()){
+         start = stacky.pop();
+         if (!discovered.contains(start)){
+            discovered.add(start);
+            for(String s : mappy.get(start).split("")){
+               stacky.push(s);
+            }
+
+         }
+      }
     	//let SOS be a stack of stacks (it's really just a LinkedList)
      	//SOS.addFront(v)
      	//while SOS is not empty do
@@ -69,6 +105,7 @@ public class GraphDFS
    @Override
    public String toString()
    {
-      return null;
+      
+      return mappy.toString();
    }
 }

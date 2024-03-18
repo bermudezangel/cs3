@@ -4,11 +4,11 @@
 
 public class GraphRunner
 {
-   public static void main( String[] args ) throws IOException
+   public static void main( String[] args )
    { 
       
       GraphDFS tester = new GraphDFS("AB AC AD BA BF CA DC DE EA EF FE GE");
-      out.println(tester);
+      System.out.println(tester);
       tester.dfs("A");
           
       //Use the above to get started.  Once it works, loop through all of the 

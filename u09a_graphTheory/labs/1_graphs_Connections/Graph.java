@@ -34,25 +34,42 @@ public class Graph
 
 	public boolean contains(String letter)
 	{
-      if (
+      if (map.keySet().contains(letter)){
+         return true;
+      }
+      return false;
 	}
 
    public boolean connected(String src, String dest)
 	{
    String place = "";
-    if (map.containsKey(){
+    if (map.get(src).contains(dest)){
       return true;
     }else{
-      for (String s : map.get(src){
+      for (String s : map.get(src)){
           place += s + ", ";
-          connected(s, 
-         
-	}
-
+          connected(s, dest, place);
+      }
+    }
+   }
    private boolean connected(String src, String dest, String placesUsed)
    { 
-      return false;
-   }
+    Set<String> placey = new HashSet<String>();
+    for (String s : placesUsed.split(", ")){
+      placey.add(s);
+    }
+    String place = "";
+    if (map.get(src).contains(dest)){
+      return true;
+    }else{
+      for (String s : map.get(src)){
+         if (placey.contains(s)){
+             place += s + ", ";
+             connected(s, dest, place);
+         }
+       }
+      }
+    }  
    
    @Override
 	public String toString()

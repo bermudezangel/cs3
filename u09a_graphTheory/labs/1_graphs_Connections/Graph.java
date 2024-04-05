@@ -74,6 +74,6 @@ public class Graph
    @Override
 	public String toString()
 	{
-		return "";
+		return map.toString();
 	}
 }

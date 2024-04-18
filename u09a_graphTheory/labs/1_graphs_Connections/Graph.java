@@ -6,11 +6,15 @@
 
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.Set;
+import java.util.HashSet;
 
 public class Graph
 {
    //Choose:
 	private Map<String, Set<String>> map;
+   Set<String> placey = new HashSet<String>();
+   String place = "";
    //private Map<String, List<String>> map;
    
 	public Graph(String line)
@@ -32,7 +36,7 @@ public class Graph
       }
 	}
 
-	public boolean contains(String letter)
+	public boolean containy(String letter)
 	{
       if (map.keySet().contains(letter)){
          return true;
@@ -42,7 +46,6 @@ public class Graph
 
    public boolean connected(String src, String dest)
 	{
-   String place = "";
     if (map.get(src).contains(dest)){
       return true;
     }else{
@@ -51,24 +54,25 @@ public class Graph
           connected(s, dest, place);
       }
     }
+    return false;
    }
    private boolean connected(String src, String dest, String placesUsed)
    { 
-    Set<String> placey = new HashSet<String>();
     for (String s : placesUsed.split(", ")){
       placey.add(s);
     }
-    String place = "";
+
     if (map.get(src).contains(dest)){
       return true;
     }else{
       for (String s : map.get(src)){
-         if (placey.contains(s)){
+         if (placey.contains(s) == false){
              place += s + ", ";
              connected(s, dest, place);
          }
        }
       }
+      return false;
     }  
    
    @Override

@@ -15,15 +15,16 @@ public class GraphRunner
 	{
 		Scanner file = new Scanner(new File("graph1.dat"));
 		int howManyTimes = file.nextInt();
-		file.nextLine();
       String curr = "";
       String vertices = "";
+      curr = file.nextLine() + file.nextLine();
+      Graph silly = null;
 		for(int x=0; x<howManyTimes; x++)
 		{
-			curr = file.nextLine();
          vertices = file.nextLine();
-         Graph silly = new Graph(curr);
+         silly = new Graph(curr);
          System.out.println(vertices.substring(0, 1) + " is connected to " + vertices.substring(1) + " == " + silly.connected(vertices.substring(0,1), vertices.substring(1)));
+         curr = file.nextLine();
        
 		}
 	}

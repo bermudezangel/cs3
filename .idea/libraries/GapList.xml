@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="GapList">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/u07a_linkedLists/notes/GapList/brownies-collections-0.9.9-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u07a_linkedLists/notes/GapList/brownies-collections-0.9.9-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u07a_linkedLists/notes/GapList/brownies-collections-0.9.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

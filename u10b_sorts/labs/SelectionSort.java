@@ -16,8 +16,10 @@ public class SelectionSort
    }
    
    public void sort(){
+      for (int i = 0; i < sorty.length(); i++){
+         int curr = sorty[i];
+         if (array[i] < )
+      }
    }
-   
-   public void sort(String[] temp){
-   }
+
 }

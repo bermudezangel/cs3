@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/u09a_graphTheory/notes/3 BFS and DFS/3 BFS and DFS.iml" filepath="$PROJECT_DIR$/u09a_graphTheory/notes/3 BFS and DFS/3 BFS and DFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u05b_maps/labs/CW/CW.iml" filepath="$PROJECT_DIR$/u05b_maps/labs/CW/CW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cs3.iml" filepath="$PROJECT_DIR$/.idea/cs3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u08b_heaps/labs/lab07b_heap/lab07b_heap.iml" filepath="$PROJECT_DIR$/u08b_heaps/labs/lab07b_heap/lab07b_heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u08b_heaps/labs/lab07c_heap_gen/lab07c_heap_gen.iml" filepath="$PROJECT_DIR$/u08b_heaps/labs/lab07c_heap_gen/lab07c_heap_gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u07a_linkedLists/labs/labs.iml" filepath="$PROJECT_DIR$/u07a_linkedLists/labs/labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u02a_arraylists/labs/labs1.iml" filepath="$PROJECT_DIR$/u02a_arraylists/labs/labs1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u04b_abstractClasses/labs/labs10.iml" filepath="$PROJECT_DIR$/u04b_abstractClasses/labs/labs10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u02c_iterators/labs/labs11.iml" filepath="$PROJECT_DIR$/u02c_iterators/labs/labs11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u05a_sets/labs/labs12.iml" filepath="$PROJECT_DIR$/u05a_sets/labs/labs12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u06d_pQueues/labs/labs2.iml" filepath="$PROJECT_DIR$/u06d_pQueues/labs/labs2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u03_recursion/labs/labs3.iml" filepath="$PROJECT_DIR$/u03_recursion/labs/labs3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u09a_graphTheory/labs/labs4.iml" filepath="$PROJECT_DIR$/u09a_graphTheory/labs/labs4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u08a_trees/labs/labs5.iml" filepath="$PROJECT_DIR$/u08a_trees/labs/labs5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u05b_maps/labs/labs6.iml" filepath="$PROJECT_DIR$/u05b_maps/labs/labs6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u07e_hashtables/labs/labs7.iml" filepath="$PROJECT_DIR$/u07e_hashtables/labs/labs7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u06c_queues/labs/labs8.iml" filepath="$PROJECT_DIR$/u06c_queues/labs/labs8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u04b_interfaces/labs/labs9.iml" filepath="$PROJECT_DIR$/u04b_interfaces/labs/labs9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u09a_graphTheory/notes/notes.iml" filepath="$PROJECT_DIR$/u09a_graphTheory/notes/notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u00a_inherit/u00a_inherit.iml" filepath="$PROJECT_DIR$/u00a_inherit/u00a_inherit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u00b_paramsArrayOfRefs/u00b_paramsArrayOfRefs.iml" filepath="$PROJECT_DIR$/u00b_paramsArrayOfRefs/u00b_paramsArrayOfRefs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u00c_graphics/u00c_graphics.iml" filepath="$PROJECT_DIR$/u00c_graphics/u00c_graphics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u01a_matrices/u01a_matrices.iml" filepath="$PROJECT_DIR$/u01a_matrices/u01a_matrices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u02a_arraylists/u02a_arraylists.iml" filepath="$PROJECT_DIR$/u02a_arraylists/u02a_arraylists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u02c_iterators/u02c_iterators.iml" filepath="$PROJECT_DIR$/u02c_iterators/u02c_iterators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u02d_exceptions/u02d_exceptions.iml" filepath="$PROJECT_DIR$/u02d_exceptions/u02d_exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u03_recursion/u03_recursion.iml" filepath="$PROJECT_DIR$/u03_recursion/u03_recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u04b_abstractClasses/u04b_abstractClasses.iml" filepath="$PROJECT_DIR$/u04b_abstractClasses/u04b_abstractClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u04b_interfaces/u04b_interfaces.iml" filepath="$PROJECT_DIR$/u04b_interfaces/u04b_interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u05a_sets/u05a_sets.iml" filepath="$PROJECT_DIR$/u05a_sets/u05a_sets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u05b_maps/u05b_maps.iml" filepath="$PROJECT_DIR$/u05b_maps/u05b_maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u06b_stacks/u06b_stacks.iml" filepath="$PROJECT_DIR$/u06b_stacks/u06b_stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u06c_queues/u06c_queues.iml" filepath="$PROJECT_DIR$/u06c_queues/u06c_queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u06d_pQueues/u06d_pQueues.iml" filepath="$PROJECT_DIR$/u06d_pQueues/u06d_pQueues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u07a_linkedLists/u07a_linkedLists.iml" filepath="$PROJECT_DIR$/u07a_linkedLists/u07a_linkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u07b_bitwise/u07b_bitwise.iml" filepath="$PROJECT_DIR$/u07b_bitwise/u07b_bitwise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u07c_boolean/u07c_boolean.iml" filepath="$PROJECT_DIR$/u07c_boolean/u07c_boolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u07d_numSystems/u07d_numSystems.iml" filepath="$PROJECT_DIR$/u07d_numSystems/u07d_numSystems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u07e_hashtables/u07e_hashtables.iml" filepath="$PROJECT_DIR$/u07e_hashtables/u07e_hashtables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u08a_trees/u08a_trees.iml" filepath="$PROJECT_DIR$/u08a_trees/u08a_trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u08b_heaps/u08b_heaps.iml" filepath="$PROJECT_DIR$/u08b_heaps/u08b_heaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u10a_searches/u10a_searches.iml" filepath="$PROJECT_DIR$/u10a_searches/u10a_searches.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u10b_sorts/u10b_sorts.iml" filepath="$PROJECT_DIR$/u10b_sorts/u10b_sorts.iml" />
+    </modules>
+  </component>
+</project>

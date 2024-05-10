@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jcomplexity">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

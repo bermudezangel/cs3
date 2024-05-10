@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/0_graphs_dfs_traversal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_graphs_Connections" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2.graphs_ShortestPathConnection" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3.graph_BidirectionalGraph" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4.graphs_Maze" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5.graphs_ShortestPathMaze" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6.graphs_adj_matrix_adj_list" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7.graphs_bfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8.graphs_dijkstra" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9a.AirlineReservation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9b.AirlineReservation_Weighted" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

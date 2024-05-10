@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/lab22a_TIC_TAC_TOE" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab22b_BlackJack_TEXT" isTestSource="false" packagePrefix="BlackJack" />
+      <sourceFolder url="file://$MODULE_DIR$/lab22c_BlackJack_GUI" isTestSource="false" packagePrefix="BlackJack" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

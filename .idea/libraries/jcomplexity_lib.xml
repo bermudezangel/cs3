@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="jcomplexity_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/jfreechart-1.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/jcommon-1.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/qtjambi-4.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/junit-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/commons-io-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/qtjambi-util-4.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/charts4j-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/qtjambi-designer-4.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/u02b_bigO/notes/jcomplexity-1.0/jcomplexity_lib/exp4j-0.2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

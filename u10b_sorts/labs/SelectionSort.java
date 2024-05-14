@@ -17,8 +17,15 @@ public class SelectionSort
    
    public void sort(){
       for (int i = 0; i < sorty.length(); i++){
-         int curr = sorty[i];
-         if (array[i] < )
+        int currMinimum = i;
+         for (int r = i + 1; r < sorty.length(); r++){
+            if (sorty[r].compareTo(sorty[currMinimum]) < 0){
+               currMinimum = r;
+            }
+         }
+         String temp = sorty[i];
+         sorty[i] = sorty[currMinimum];
+         sorty[currMinimum] = temp;
       }
    }
 

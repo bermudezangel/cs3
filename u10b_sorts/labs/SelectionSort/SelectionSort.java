@@ -15,9 +15,9 @@ public class SelectionSort
       return sorty.toString();
    }
    
-   public String sort(){
+   private String sort(){
       String procedure = "";
-      for (int i = 0; i < sorty.length; i++){
+      for (int i = 0; i < sorty.length - 1; i++){
         int currMinimum = i;
         procedure += (printArray(sorty) + "\n");
          for (int r = i + 1; r < sorty.length; r++){
@@ -25,22 +25,25 @@ public class SelectionSort
                currMinimum = r;
             }
          }
-         String temp = sorty[i];
-         sorty[i] = sorty[currMinimum];
-         sorty[currMinimum] = temp;
+         String temp = sorty[currMinimum];
+         sorty[currMinimum] = sorty[i];
+         sorty[i] = temp;
       }
       return procedure;
    }
-   public String printArray(String[] a){
+   private String printArray(String[] a){
       String currArray = "";
-      (String s : a){
-         currArray = currArray + (a + " ");
+      for (String s : a){
+         currArray = currArray + (s + " ");
       }
+      return currArray;
    }
    public String toString(){
-      String[] original = sorty;
-      sort();
-      return "original array: " + original.toString() + "\n\nsorting procedure: " + sort() + "\n\nfinalized array: " + sorty.toString();
+      String[] original = new String[sorty.length];
+      for(int i = 0; i < sorty.length; i++){
+         original[i] = sorty[i];
+      }
+      return "original array: " + printArray(original) + "\n\nsorting procedure: " + sort() + "\n\nfinalized array: " + printArray(sorty);
 
    }
 }

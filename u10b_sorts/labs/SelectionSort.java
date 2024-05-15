@@ -15,10 +15,12 @@ public class SelectionSort
       return sorty.toString();
    }
    
-   public void sort(){
-      for (int i = 0; i < sorty.length(); i++){
+   public String sort(){
+      String procedure = "";
+      for (int i = 0; i < sorty.length; i++){
         int currMinimum = i;
-         for (int r = i + 1; r < sorty.length(); r++){
+        procedure += (printArray(sorty) + "\n");
+         for (int r = i + 1; r < sorty.length; r++){
             if (sorty[r].compareTo(sorty[currMinimum]) < 0){
                currMinimum = r;
             }
@@ -27,6 +29,18 @@ public class SelectionSort
          sorty[i] = sorty[currMinimum];
          sorty[currMinimum] = temp;
       }
+      return procedure;
    }
+   public String printArray(String[] a){
+      String currArray = "";
+      (String s : a){
+         currArray = currArray + (a + " ");
+      }
+   }
+   public String toString(){
+      String[] original = sorty;
+      sort();
+      return "original array: " + original.toString() + "\n\nsorting procedure: " + sort() + "\n\nfinalized array: " + sorty.toString();
 
+   }
 }

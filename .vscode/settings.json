@@ -1,6 +1,6 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
-        "u10b_sorts/labs/SelectionSort"
+        "u10b_sorts/labs/MergeSort"
     ]
 }
